@@ -18,10 +18,16 @@ const Main = (props) => {
             .then((user) => {
                 userInfo(user)
             })
+            .catch((err) => {
+                 console.log(err);
+               });
         api.getInitialCards()
             .then((cards) => {
                 setCards(cards)
             })
+            .catch((err) => {
+                console.log(err);
+              });
     }, [])
     return (
         <main className="content">
