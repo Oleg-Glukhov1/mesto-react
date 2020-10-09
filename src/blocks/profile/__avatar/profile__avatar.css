@@ -1,0 +1,7 @@
+@import url(./_button/profile__avatar_button.css);
+.profile__avatar {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
