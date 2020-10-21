@@ -10,7 +10,7 @@ const Main = (props) => {
         <main className="content">
             <section className="profile">
 
-                <button className="profile__avatar_button" typt='button' onClick={props.onEditAvatar} aria-label="Редактировать аватар">
+                <button className="profile__avatar_button" type='button' onClick={props.onEditAvatar} aria-label="Редактировать аватар">
                     <img src={currentUser.avatar} className="profile__avatar" alt="Аватар" />
                 </button>
 
